@@ -3,8 +3,9 @@ package com.reactnativecommunity.picker;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.TextView;
+import androidx.appcompat.widget.AppCompatTextView;
 
-public class TextViewImpl extends TextView {
+public class TextViewImpl extends AppCompatTextView {
     public TextViewImpl(Context context) {
         super(context);
     }

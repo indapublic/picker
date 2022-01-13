@@ -2,9 +2,9 @@ package com.reactnativecommunity.picker;
 
 import android.content.Context;
 import android.util.AttributeSet;
-import android.widget.CheckedTextView;
+import androidx.appcompat.widget.AppCompatCheckedTextView;
 
-public class CheckedTextViewImpl extends CheckedTextView {
+public class CheckedTextViewImpl extends AppCompatCheckedTextView {
     public CheckedTextViewImpl(Context context) {
         super(context);
     }
